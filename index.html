@@ -1,68 +1,42 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>My Portfolio page</title>
-        <link rel = "stylesheet"
-              type = "text/css"
-              href = "style.css" />
-    </head>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <title>Virtual Pet-1</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+      <script src="p5.play.js"></script>
+     
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
 
-    <body>
-        <div class="header">
-            <h1>Student Name</h1>
-            <div class="menu">
-                <a href="index.html">Projects</a>
-                <a href="aboutme.html">About Me</a>
-            </div>
-        </div>
-        
-       
-         <h2>These are some games designed by me</h2>
-         <p>Games use p5.js, p5.play and matter.js libraries in javascript</p>
-        
-        <div class = "grid">
-            <div class="item">
-                <a href = "https://editor.p5js.org/whitehatjr/present/ePJrHCACM"><img src="https://via.placeholder.com/300"/></a>
-                <p>Trex Runner Game</p>
-            </div>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 
-            <div class="item">
-                <a href = "#"><img src="https://via.placeholder.com/300"/></a>
-                <p>Name of game 2</p>
-            </div>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBpduHqkMFCYKOijNOM4QXHbYIPofLfbHg",
+    authDomain: "project-35-virtual-pet-1.firebaseapp.com",
+    databaseURL: "https://project-35-virtual-pet-1.firebaseio.com",
+    projectId: "project-35-virtual-pet-1",
+    storageBucket: "project-35-virtual-pet-1.appspot.com",
+    messagingSenderId: "590166818728",
+    appId: "1:590166818728:web:2411f4cd9dbc4b35bee79d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 
-            <div class="item">
-                    <a href = "#"><img src="https://via.placeholder.com/300"/></a>
-                    <p>Name of game 3</p>
-            </div>
+</script>
 
-            <div class="item">
-                    <a href = "#"><img src="https://via.placeholder.com/300"/></a>
-                    <p>Name of game 4</p>
-            </div>
-
-            <div class="item">
-                    <a href = "#"><img src="https://via.placeholder.com/300"/></a>
-                    <p>Name of game 5</p>
-            </div>
-
-            <div class="item">
-                    <a href = "#"><img src="https://via.placeholder.com/300"/></a>
-                    <p>Name of game 6</p>
-            </div>
-
-            <div class="item">
-                    <a href = "#"><img src="https://via.placeholder.com/300"/></a>
-                    <p>Name of game 7</p>
-            </div>
-       
-        </div>
-
-        <div class="footer">
-            <a href="#"><img src="fb.png" width=50 height=50/></a>
-            <a href="#"><img src="insta.png" width=50 height=50/></a>
-            <a href="#"><img src="youtube.png" width=50 height=50/></a>
-        </div>
     
+
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+      <script src="sketch.js"></script>
     </body>
-</html>
+  </html>
